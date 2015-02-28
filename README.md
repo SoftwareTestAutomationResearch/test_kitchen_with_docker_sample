@@ -1,0 +1,2 @@
+# test_kitchen_with_docker_sample
+test-kitchenを使ってdockerコンテナ上でchefレシピをテストするサンプル
