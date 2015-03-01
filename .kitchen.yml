@@ -3,12 +3,17 @@ driver:
   name: docker
 
 provisioner:
-  name: chef_zero
+  name: chef_solo
 
 platforms:
+  - name: ubuntu
   - name: centos
+    driver_config:
+      image: centos:6.6
+      platform: centos
 
 suites:
-  - name: default
+  - name: nginx
     run_list:
+      - recipe[nginx]
     attributes:
