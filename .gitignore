@@ -35,3 +35,5 @@ build/
 .kitchen/
 .kitchen.local.yml
 Gemfile.lock
+Berksfile.lock
+cookbooks
